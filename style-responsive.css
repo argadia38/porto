@@ -1,0 +1,91 @@
+@media (max-width:980px) {
+
+    /* .main {
+        background-color: black;
+        display: block;
+        margin: 0px 0;
+
+    } */
+
+    nav ul li a {
+        font-size: 40px;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    a:hover,
+    a.active {
+        display: none;
+        color: #7e0000;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+    #avatar img {
+        width: 150px;
+        height: 150px;
+    }
+
+    #avatar h1 {
+        font-size: 30px;
+    }
+
+    #contact {
+        padding: 50px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container .contactinfo {
+        margin-bottom: 40px;
+    }
+
+    .container .contactinfo,
+    .contactform {
+        width: 100%;
+    }
+
+    header {
+
+        background: url("gambar/kuda.jpg") no-repeat;
+        background-size: cover;
+        height: calc(100vh - 80px);
+
+    }
+}
+
+@media (max-width:952px) {
+    .logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+}
